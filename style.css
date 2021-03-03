@@ -1,0 +1,404 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;500&display=swap');
+
+body {
+  margin: 0;
+}
+
+.logo_menu {
+  width: 250px;
+  height: 70px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  background: hsla(0, 0%, 100%, 0.98);
+  width: 100vw;
+  align-items: center;
+  position: fixed;
+  transition: box-shadow 0.25s ease 0s;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu-item {
+  list-style: none;
+  margin-right: 20px;
+  /* font-weight:400 ;
+    font-size: 15px ;
+    font-family:Roboto, Arial, sans-serif; 
+     */
+  font: 400 15px Roboto, Arial, sans-serif;
+  line-height: 30px;
+}
+
+.drop-menu {
+  display: none;
+}
+
+.menu-item:hover .drop-menu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  list-style: none;
+  font: 400 15px Roboto, Arial, sans-serif;
+  line-height: 30px;
+  padding: 0 30px;
+  background-color: white;
+  box-shadow: 0px 0px 10px #ddd;
+}
+
+.menu a:link {
+  text-decoration: none;
+  color: #9e9e9e;
+}
+/* mouse over link */
+.menu-item a:hover {
+  text-decoration: none;
+  color: #00b39b;
+}
+/* mouse over link */
+.drop-menu-item a:hover {
+  text-decoration: none;
+  color: #00b39b;
+  background-color: #9e9e9e52;
+}
+
+.title{
+    text-align: center;
+    padding-top:100px;
+}
+.title h1{
+    font:300 34px "Work Sans", Arial, sans-serif;
+    color: #00b39b;
+Line-height: 44.2px;
+
+}
+
+
+.info{
+    display:flex;
+    justify-content: space-around;
+    width:1000px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.info  p {
+    width:450px;
+    font: 400 16px Roboto, Arial, sans-serif;
+    line-height: 28px;
+    color: rgb(116, 116, 116);
+}
+
+
+
+.for{
+display: flex;
+width: 1000px;
+margin: 20px 180px;
+}
+
+.for div {
+display: block;
+width: 250px;
+height: 300px;
+margin: auto 10px;
+padding: 20px 25px;
+border-radius: 5%;
+transition: all .2s ease 0s;
+     }
+     
+.for-item1{
+background-color:#00ccb1 ;
+}
+.for-item2{
+background-color:#3d83df ;
+    
+}
+.for-item3{
+background-color:#1b2734 ;
+}
+
+.for  h1{
+color: rgb(255, 255, 255);
+font: 400 26px  "Work Sans", Arial, sans-serif;
+}
+
+.for h2{
+color: rgb(255, 255, 255);
+font: 300 24px  "Work Sans", Arial, sans-serif;
+}
+
+.for a {
+color: rgb(255, 255, 255);
+font: 400 19.2px  "Work Sans", Arial, sans-serif;
+text-decoration: underline;
+}
+
+.logos {
+display: flex;
+width: 1000px;
+margin: 0px 190px;
+}
+
+.logos p{
+color: rgb(0, 179,155);
+font: 300 26px  "Work Sans", Arial, sans-serif;
+}
+
+.logos img {
+  margin-right: 50px;
+}
+
+
+.platform {
+display: flex;
+justify-content: center ;
+width: 100vw;
+background-color :rgb(218,247,246);
+height: 100vh;
+background: url("doc/logo-platform.png")   no-repeat ;
+}
+
+
+.platform .text{
+display: flex;
+flex-direction: column;
+width: 450px;
+margin: 50px 60px;
+}
+
+.platform img{
+  margin-top: 82px;
+
+}
+
+.platform h1{
+color: rgb(0, 179,155);
+font: 300 34px  "Work Sans", Arial, sans-serif;
+line-height: 44.2px;
+margin-bottom: 0px;
+}
+.platform p{
+color: rgb(116, 116, 116);
+font: 400 14px  "Roboto", Arial, sans-serif;
+line-height: 24px;
+}
+
+
+
+
+
+.platform .ligne{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.ligne .ligne1{
+display: flex;
+flex-direction: column;
+text-align: center; 
+margin: 25px 0px;
+height: 100%;
+}
+.ligne .lignestyle1{
+  border-radius: 2%;
+  background-color: white;
+  width: 230px;
+  height: 260px;
+margin: 10px 0px;
+}
+
+
+.ligne .ligne2{
+display: flex;
+flex-direction: column; 
+text-align: center; 
+margin: 10px 0px;
+height: 100%;
+}
+.ligne .lignestyle2{
+  border-radius: 2%;
+  background-color: white;
+  width: 230px;
+  height: 260px;
+  margin: 10px 20px;
+}
+
+
+
+.ligne h1{
+color: rgb(0, 179,155);
+font: 300 24px  "Work Sans", Arial, sans-serif;
+line-height: 31.2px;
+}
+.ligne p{
+color: rgb(116, 116, 116);
+font: 400 13px  "Roboto", Arial, sans-serif;
+line-height: 16.9px;
+}
+
+.ligne img{
+margin-top: 50px;
+}
+
+
+
+
+
+.improve{
+display: flex;
+flex-direction: column; 
+text-align: center;
+}
+
+.improve img{
+border-radius: 10px 10px  0px 0px;
+}
+
+.improve h1{
+color: rgb(0, 179,155);
+font: 300 30px  "Work Sans", Arial, sans-serif;
+line-height: 39px;
+margin-bottom: 0px;
+}
+.improve p{
+color: rgb(116, 116, 116);
+font: 400 14px  "Roboto", Arial, sans-serif;
+line-height: 24px;
+}
+
+
+
+.imgcol1 {
+  display: flex;
+  justify-content: center; 
+}
+.imgcol1 > div {
+  background-color: white;
+  box-shadow: 0px 0px 10px #ddd;
+  margin: 20px 10px;
+  padding: 0px;
+  font-size: 30px;
+   border-radius: 10px;
+
+}
+
+.imgcol1 p{
+  text-align: left;
+  font: 400 18px  "Roboto", Arial, sans-serif;
+Line-height: 30px;
+color: rgb(116, 116, 116)
+}
+
+
+.imgcol2 {
+  display: flex;
+    justify-content: center;
+}
+.imgcol2 > div {
+  background-color: white;
+  box-shadow: 0px 0px 10px #ddd;
+ margin: 20px 10px;
+  padding: 0px;
+  font-size: 30px;
+    border-radius: 10px;
+
+}
+
+.imgcol2 p{
+  text-align: left;
+
+}
+
+
+
+
+.imgcol3 {
+  display: flex;
+  margin-left: 180px;
+}
+.imgcol3 > div {
+  background-color: white;
+  box-shadow: 0px 0px 10px #ddd;
+ margin: 20px 10px;
+  padding: 0px;
+  font-size: 30px;
+     border-radius: 10px;
+
+}
+
+.imgcol3 p{
+  text-align: left;
+
+}
+
+
+.improve h3{
+font: 300 30px  "Work Sans", Arial, sans-serif;
+line-height: 39px;
+color: rgb(51, 51, 51);
+}
+
+.textbutt{
+  display: flex;
+  justify-content: space-around;
+  padding: 0px px;
+ 
+}
+button{
+      background-color: rgb(61, 131, 223);
+    border-radius: 4px;
+    font: 700 10px "Roboto", Arial, sans-serif;
+    border: none;
+    color: white;
+    padding: 9px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 17px 0px;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+
+.btn{
+      background-color: rgb(61, 131, 223);
+    border-radius: 4px;
+    font: 700 12px "Roboto", Arial, sans-serif;
+    line-height: 12px;
+    border: none;
+    color: white;
+padding: 16px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: -17px 11px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+
+.main-footer p{
+text-align: center;
+font: 400 12px "Roboto", Arial, sans-serif;
+Line-height: 15.6px;
+color: rgb(171, 171, 171);
+}
+
+.main-footer {
+    border-top: 1px solid #eef2f2;
+    margin-top: 90px;
+    text-align: center;
+    padding: 20px 0px;;
+   
+}
+
+
+
+ 
